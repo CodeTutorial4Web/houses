@@ -116,7 +116,6 @@ function viewDetails(index, target){
 
   viewContainerContent.innerHTML = `
   
-      <div class="text-content">
         <div class="content">
           <h3>${arrayCopy[index].title}</h3>
           <p>${arrayCopy[index].desc}</p>
@@ -194,7 +193,6 @@ function viewDetails(index, target){
             </li>
           </ul>
         </div>
-      </div>
   
   
   
