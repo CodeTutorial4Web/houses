@@ -754,6 +754,7 @@ input {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     box-shadow: var(--box-shadow-md);
+    padding-top: 3rem;
 }
 
 .view-house-container.show {
@@ -761,7 +762,7 @@ input {
 }
 
 .view-house-container .text-content {
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: start;
@@ -772,13 +773,14 @@ input {
     justify-content: start;
     align-items: start;
     flex-direction: column;
+    
 }
 
 .view-house-container .contact {
-    width: 40%;
     border: 1px solid var(--gray-color-300);
     padding: 1rem;
     border-radius: .5rem;
+    width: 50%;
 }
 
 .view-house-container .contact ul{
@@ -902,7 +904,7 @@ input {
 } 
 
 .view-house-container .images-slider {
-    width: 90%;
+    width: 100%;
     min-height: 80vh;
     position: relative;
     border-radius: .5rem;
