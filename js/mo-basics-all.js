@@ -26,7 +26,7 @@ $(window).scroll(()=>{
 for (let index = 0; index < sections.length; index++) {
 
     if(sections[index].dataset.nav === 'Book Now') {
-        sectionsHeaders[index].innerHTML = 'Book Our Luxorios Houses <span>Now</span>';
+        sectionsHeaders[index].innerHTML = 'Book Our Luxurious Houses <span>Now</span>';
     }else {
         sectionsHeaders[index].textContent = sections[index].dataset.nav
     }

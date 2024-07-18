@@ -1,0 +1,186 @@
+{
+  "bestOffers": [
+    {
+      "img": "./images/hero-img1.jpg",
+      "title": "House1",
+      "desc": "Get A Luxorios House In Santiago",
+      "price": 720000,
+      "location": "house2, street2, city",
+      "rooms": 2,
+      "baths": 3,
+      "garages": 2,
+      "area": "2000 sq ft",
+      "date": "12hrs ago",
+      "currency": "EGP",
+      "sliderImages": [
+        "./images/hero-img2.jpg",
+        "./images/hero-img1.jpg",
+        "./images/hero-img3.webp"
+      ]
+    },
+    {
+      "img": "./images/hero-img2.jpg",
+      "title": "House2",
+      "desc": "The Best Degsin In Oxford",
+      "price": 721050,
+      "location": "house2, street2, city",
+      "rooms": 2,
+      "baths": 3,
+      "garages": 2,
+      "area": "2000 sq ft",
+      "date": "18hrs ago",
+      "currency": "EGP",
+      "sliderImages": [
+        "./images/hero-img2.jpg",
+        "./images/hero-img1.jpg",
+        "./images/hero-img3.webp"
+      ]
+    },
+    {
+      "img": "./images/hero-img3.webp",
+      "title": "House3",
+      "desc": "Buy Your House Now by Best Offer",
+      "price": 227030,
+      "location": "house2, street2, city",
+      "rooms": 2,
+      "baths": 3,
+      "garages": 2,
+      "area": "1200 sq ft",
+      "date": "22hrs ago",
+      "currency": "EGP",
+      "sliderImages": [
+        "./images/hero-img2.jpg",
+        "./images/hero-img1.jpg",
+        "./images/hero-img3.webp"
+      ]
+    },
+    {
+      "img": "./images/hero-img1.jpg",
+      "title": "House4",
+      "desc": "A House In Hurghada On The Beach",
+      "price": 1122801,
+      "location": "house2, street2, city",
+      "rooms": 2,
+      "baths": 3,
+      "garages": 2,
+      "area": "2000 sq ft",
+      "date": "22hrs ago",
+      "currency": "EGP",
+      "sliderImages": [
+        "./images/hero-img2.jpg",
+        "./images/hero-img1.jpg",
+        "./images/hero-img3.webp"
+      ]
+    },
+    {
+      "img": "./images/hero-img2.jpg",
+      "title": "House5",
+      "desc": "The Largest House In Cairo",
+      "price": 5520000,
+      "location": "house2, street2, city",
+      "rooms": 7,
+      "baths": 8,
+      "garages": 2,
+      "area": "3100 sq ft",
+      "date": "15hrs ago",
+      "currency": "EGP",
+      "sliderImages": [
+        "./images/hero-img2.jpg",
+        "./images/hero-img1.jpg",
+        "./images/hero-img3.webp"
+      ]
+    }
+  ],
+  "recommended": [
+    {
+      "img": "./images/hero-img3.webp",
+      "title": "House6",
+      "desc": "Get Your Dream House Now In Sharm El-shiekh",
+      "price": 8400000,
+      "location": "house2, street2, city",
+      "rooms": 5,
+      "baths": 3,
+      "garages": 1,
+      "area": "2700 sq ft",
+      "date": "2d ago",
+      "currency": "EGP",
+      "sliderImages": [
+        "./images/hero-img2.jpg",
+        "./images/hero-img1.jpg",
+        "./images/hero-img3.webp"
+      ]
+    },
+    {
+      "img": "./images/hero-img1.jpg",
+      "title": "House7",
+      "desc": "Get A Modern House Now With A Beach View",
+      "price": 7400000,
+      "location": "house2, street2, city",
+      "rooms": 4,
+      "baths": 3,
+      "garages": 2,
+      "area": "2200 sq ft",
+      "date": "1d ago",
+      "currency": "EGP",
+      "sliderImages": [
+        "./images/hero-img2.jpg",
+        "./images/hero-img1.jpg",
+        "./images/hero-img3.webp"
+      ]
+    },
+    {
+      "img": "./images/hero-img2.jpg",
+      "title": "House8",
+      "desc": "Buy Your House Now by Best Offer",
+      "price": 227030,
+      "location": "house2, street2, city",
+      "rooms": 2,
+      "baths": 3,
+      "garages": 2,
+      "area": "1200 sq ft",
+      "date": "1d ago",
+      "currency": "EGP",
+      "sliderImages": [
+        "./images/hero-img2.jpg",
+        "./images/hero-img1.jpg",
+        "./images/hero-img3.webp"
+      ]
+    },
+    {
+      "img": "./images/hero-img3.webp",
+      "title": "House9",
+      "desc": "A Classic House In Giza",
+      "price": 5210000,
+      "location": "house2, street2, city",
+      "rooms": 6,
+      "baths": 8,
+      "garages": 1,
+      "area": "3100 sq ft",
+      "date": "3d ago",
+      "currency": "EGP",
+      "sliderImages": [
+        "./images/hero-img2.jpg",
+        "./images/hero-img1.jpg",
+        "./images/hero-img3.webp"
+      ]
+    },
+    {
+      "img": "./images/hero-img1.jpg",
+      "title": "House10",
+      "desc": "The Best View In The Middle East",
+      "price": 2310000,
+      "location": "house2, street2, city",
+      "rooms": 4,
+      "baths": 3,
+      "garages": 1,
+      "area": "1200 sq ft",
+      "date": "2d ago",
+      "currency": "EGP",
+      "sliderImages": [
+        "./images/hero-img2.jpg",
+        "./images/hero-img1.jpg",
+        "./images/hero-img3.webp"
+      ]
+    }
+  ]
+}

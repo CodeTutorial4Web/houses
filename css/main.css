@@ -207,6 +207,9 @@ section {
     border-radius: var(--border-radius-3xl);
     margin-top: 1rem;
     font-weight: 700;
+    border: none;
+    font-family: var(--font-family-poppins);
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -714,6 +717,251 @@ footer ul li a:hover {
     background: var(--green-color-600);
 }
 
+/* Product View */
+
+.view-house-container {
+    width: 90%;
+    height: 90%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--light-color);
+    z-index: 99999999;
+    display: none;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem ;
+    border-radius: 1rem;
+    overflow-y: scroll;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: var(--box-shadow-md);
+}
+
+.view-house-container.show {
+    display: flex;
+}
+
+.view-house-container .text-content {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.view-house-container .content {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
+.view-house-container .contact {
+    width: 40%;
+    border: 1px solid var(--gray-color-300);
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.view-house-container .contact ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.view-house-container .contact ul li {
+    width: 100%;
+    padding: .9rem 0;
+    border-radius: .5rem;
+    background: var(--gray-color-300);
+    color: var(--gray-color-600);
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.view-house-container .contact ul li a {
+    color: var(--gray-color-600);
+    width: 100%;
+
+}
+
+.view-house-container .contact ul li:hover a {
+    color: var(--light-color);
+}
+
+.view-house-container .contact ul li:nth-child(1):hover {
+    background: #f85;
+}
+
+.view-house-container .contact ul li:nth-child(2):hover {
+    background: #25d366;
+}
+
+.view-house-container .contact ul li:nth-child(3):hover {
+    background: #0af;
+}
+
+.view-house-container .company {
+    margin-top: 2rem;
+}
+
+.view-house-container .company h4 {
+    font-size: 1rem;
+
+}
+
+.view-house-container .company p {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--gray-color-500);
+    font-family: var(--font-family-rubik);
+    line-height: 1.7rem;
+}
+
+.view-house-container .company img {
+    border-radius: .5rem;
+    width: 100px;
+    display: inline-block;
+}
+
+.view-house-container .company span {
+    display: flex;
+    align-items: end;
+    gap: 1rem;
+}
+
+.view-house-container .content h3 {
+    font-size: 2rem;
+}
+
+.view-house-container .content > p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: var(--gray-color-500);
+    font-family: var(--font-family-rubik);
+    margin-bottom: .7rem;
+}
+
+.view-house-container .content .price {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--gray-color-600);
+    margin-bottom: 1rem;
+
+}
+
+.view-house-container .content .location {
+    font-size: 1.1rem;
+    color: var(--gray-color-500);
+}
+
+.view-house-container .content .house-info {
+    color: var(--gray-color-500);
+    font-family: var(--font-family-rubik);
+    font-size: 1rem;
+    margin-top: .4rem;
+    text-wrap: nowrap;
+    word-break: keep-all;
+}
+
+.view-house-container .content .house-info span {
+    border-right: 1px solid var(--gray-color-500);
+    padding-right: 1rem;
+    margin-left: 1rem;
+}
+
+.view-house-container .content .house-info span:nth-child(1) {
+    margin-left: 0;
+}
+
+.view-house-container .content .house-info span:nth-last-child(1) {
+    border-right: 0;
+} 
+
+.view-house-container .images-slider {
+    width: 90%;
+    min-height: 80vh;
+    position: relative;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+
+.view-house-container .images-slider .images-slider-list {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.view-house-container .images-slider .images-slider-list img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.view-house-container .images-slider .images-slider-prev 
+ {
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+}
+
+
+.view-house-container .images-slider .images-slider-prev ,
+.view-house-container .images-slider .images-slider-next {
+    height: 100%;
+    padding: 0 2rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: var(--gray-color-400);
+
+}
+
+
+.view-house-container .images-slider .images-slider-prev:hover ,
+.view-house-container .images-slider .images-slider-next:hover {
+    color: var(--gray-color-300);
+    backdrop-filter: blur(5px);
+
+}
+
+
+.view-house-container .images-slider .images-slider-next {
+    position: absolute;
+    bottom: 0;
+    right: -1px;
+}
+
+.close-view-house-container {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.close-view-house-container:hover {
+    color: var(--green-color-500);
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width:965px) {
@@ -742,6 +990,24 @@ footer ul li a:hover {
 
     .why-us-section {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .view-house-container .text-content {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .view-house-container .text-content .contact {
+        margin-bottom: 7rem;
+    }
+
+    
+    .view-house-container .images-slider {
+        min-height: 60vh;
+    }
+
+    .view-house-container .text-content > div {
+        width: 100%;
     }
 
 }
@@ -803,6 +1069,20 @@ footer ul li a:hover {
         width: calc(50% - 1rem);
     }
 
+    .view-house-container .images-slider {
+        min-height: 50vh;
+    }
+
+    .view-house-container .images-slider,
+    .view-house-container .text-content {
+        width: 95%;
+    }
+
+    .view-house-container .images-slider .images-slider-next,
+    .view-house-container .images-slider .images-slider-prev {
+        font-size: 2rem;
+    }
+
 }
 
 @media screen and (max-width: 500px){
@@ -838,10 +1118,45 @@ footer ul li a:hover {
         font-size: .8rem;
     }
 
+    .view-house-container .images-slider {
+        min-height: 40vh;
+    }
+
+     h3 {
+        font-size: 1.5rem;
+     }
+
+    .view-house-container .content .price {
+        font-size: 2rem;
+    }
+
+    .view-house-container .content .house-info {
+        font-size: .8rem;
+    }
+
+    .view-house-container .content .house-info span{
+        padding-right: .4rem;
+        margin-left: .4rem;
+    }
+
+
+
+    .view-house-container .content .location {
+        font-size: .9rem;
+    }
+
+    .view-house-container .content > p {
+        font-size: .9rem;
+    }
+
 }
 
 @media screen and (max-width: 420px) {
     .slider-hero-item img {
         width: 280%;
+    }
+
+    .view-house-container .images-slider {
+        min-height: 35vh;
     }
 }
