@@ -99,7 +99,7 @@ function renderData(container, target) {
 function viewDetails(index, target){
   viewContainer.classList.add('show');
   document.body.classList.add('overflow-hidden');
-  darkBg.classList.remove('show');
+  darkBg.classList.add('show');
 
   let arrayCopy = data[target.id];
   let imagesArray = arrayCopy[index].sliderImages;
