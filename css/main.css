@@ -1253,7 +1253,22 @@ input {
         margin-left: .4rem;
     }
 
+    .view-house-container,
+    .book-now-container {
+        width: 100%;
+        height: 100vh;
+        border-radius: 0;
+    }
 
+    .view-house-container {
+        padding-top: 3rem;
+    }
+
+    .view-house-container .images-slider,
+    .view-house-container .text-content {
+        width: 100%;
+    }
+    
 
     .view-house-container .content .location {
         font-size: .9rem;
@@ -1271,6 +1286,6 @@ input {
     }
 
     .view-house-container .images-slider {
-        min-height: 35vh;
+        min-height: 30vh;
     }
 }
