@@ -34,6 +34,8 @@
         Scroll
     </span> -->
 
+    <div class="dark-bg"></div>
+
     <main class="hero-container">
       <div class="slider-hero">
         <div class="slider-list">
@@ -85,9 +87,7 @@
         <h2 class="font-400">Best Offers</h2>
       </div>
 
-      <div class="houses-slider display-data">
-     
-      </div>
+      <div class="houses-slider display-data"></div>
     </section>
 
     <section id="recommended" data-nav="Recommended">
@@ -95,10 +95,7 @@
         <h2 class="font-400"></h2>
       </div>
 
-      <div class="houses-slider display-data">
-      
-
-      </div>
+      <div class="houses-slider display-data"></div>
     </section>
 
     <section id="whyUs" data-nav="Why Us">
@@ -162,7 +159,7 @@
         <h2 class="">Book Now</h2>
       </div>
 
-      <a href="#" class="btn">Book Now</a>
+      <button class="btn show-book-now">Book Now</button>
     </section>
 
     <section id="contact" data-nav="Contact Us">
@@ -198,15 +195,14 @@
 
       <div class="footer-links">
         <div class="quick-links">
-            <h3>Quick Links</h3>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
         </div>
-    
 
         <div class="social-media">
           <h3>Social Media</h3>
@@ -227,14 +223,14 @@
         </div>
 
         <div class="company">
-            <h3>Company</h3>
-            <ul>
-                <li><a href="#">Terms & Conditions</a></li>
-                <li><a href="#">Partners</a></li>
-                <li><a href="#">Available Places</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">History</a></li>
-            </ul>
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Available Places</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">History</a></li>
+          </ul>
         </div>
 
         <div class="newsletter">
@@ -243,7 +239,7 @@
             <input type="email" placeholder="Enter your email" />
             <button type="submit">Subscribe</button>
           </form>
-        </div>  
+        </div>
       </div>
 
       <div class="copyright">&copy; 2023 Houses. All rights reserved.</div>
@@ -253,26 +249,80 @@
       <i class="close-view-house-container fas fa-multiply"></i>
       <div class="images-slider">
         <div class="images-slider-list">
-          <img src="images/hero-img1.jpg" alt="">
-          <img src="images/hero-img2.jpg" alt="">
-          <img src="images/hero-img3.webp" alt="">
+          <img src="images/hero-img1.jpg" alt="" />
+          <img src="images/hero-img2.jpg" alt="" />
+          <img src="images/hero-img3.webp" alt="" />
         </div>
 
         <div class="images-slider-prev">&#10094;</div>
         <div class="images-slider-next">&#10095;</div>
-
       </div>
 
-      <div class="text-content">
+      <div class="text-content"></div>
+    </div>
 
-      </div>
+    <div class="book-now-container">
 
-      
-    </div> 
-    
-    
+      <i class="close-book-now-container fas fa-multiply"></i>
+      <h2>Book Now</h2>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <form action="#">
+        <div class="form-group">
+          <div>
+            <label for="firstName">First Name</label>
+            <input
+              type="text"
+              placeholder="First Name"
+              id="firstName"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="secondName">Second Name</label>
+            <input
+              type="text"
+              placeholder="Second Name"
+              id="secondName"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div>
+            <label for="email">Email</label>
+            <input type="email" placeholder="Email" id="email" required />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div>
+            <label for="phone">Phone</label>
+            <input type="tel" placeholder="Phone" id="phone" required />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div>
+            <label for="date">Date</label>
+            <input type="date" id="date" required />
+            <div class="submit">
+              <button id="submit">Submit</button>
+            </div>
+          </div>
+        </div>
+
+   
+      </form>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
     <script src="server/render-data.js"></script>
     <script src="js/mo-basics-all.js"></script>
